@@ -3,7 +3,7 @@ source 'http://rubygems.org'
 gem 'rails', '3.1.0'
 gem 'json'
 gem 'resque'
-gem 'resque_mailer', :path => '/Users/nap/dev/resque_mailer'
+gem 'resque_mailer', :git => 'git://github.com/zapnap/resque_mailer.git'
 gem 'paperclip'
 
 # Bundle edge Rails instead:
@@ -32,3 +32,5 @@ gem 'sqlite3-ruby', :require => 'sqlite3'
 # group :development, :test do
 #   gem 'webrat'
 # end
+
+gem 'rspec-rails'
