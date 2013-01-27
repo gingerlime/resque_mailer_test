@@ -1,4 +1,6 @@
 ResqueMailerTest::Application.routes.draw do
+
+  mount MailPreview => 'mail_view'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

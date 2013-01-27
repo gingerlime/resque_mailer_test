@@ -10,6 +10,7 @@ gem 'paperclip'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
+gem "mail_view", "~> 1.0.3"
 
 # Use unicorn as the web server
 # gem 'unicorn'
